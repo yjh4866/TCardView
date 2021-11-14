@@ -25,10 +25,14 @@
     
     TCardView *cardView = [[TCardView alloc] initWithFrame:CGRectMake(0, 60, kScreenWidth, kScreenHeight - 200)];
     cardView.isOpenAutoScroll = NO;
-    cardView.isEditing = YES;
+    cardView.isEditing = NO;
+    cardView.pageControl.hidden = YES;
+    cardView.blockShowCardCell = ^(TCardCell * _Nonnull cardCell, NSInteger index) {
+        cardCell.layer.cornerRadius = 30;
+        cardCell.layer.masksToBounds = YES;
+    };
     cardView.imageArr = @[@"pic0", @"pic1", @"pic2", @"pic3", @"pic4"];
     [self.view addSubview:cardView];
-    
 }
 
 

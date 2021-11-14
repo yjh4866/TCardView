@@ -18,6 +18,8 @@ typedef NS_ENUM(NSUInteger, TCardFlowDirection) {
 @property (nonatomic, assign)   id <TCardFlowDataSource> dataSource;
 @property (nonatomic, assign)   id <TCardFlowDelegate>   delegate;
 
+@property (nonatomic, readonly)  UIPageControl *pageControl;
+
 /** 默认为横向 */
 @property (nonatomic, assign) TCardFlowDirection direction;
 /** 非当前页的透明比例 */

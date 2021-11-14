@@ -78,6 +78,9 @@
         }
     };
     
+    if (self.blockShowCardCell) {
+        self.blockShowCardCell(cell, index);
+    }
     return cell;
 }
 

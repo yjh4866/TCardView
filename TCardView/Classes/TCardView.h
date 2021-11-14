@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**左右缩进 默认80*/
 @property (nonatomic, assign) CGFloat padding;
 
+@property (nonatomic, copy) void (^blockShowCardCell)(TCardCell *cardCell, NSInteger index);
+
 
 @end
 

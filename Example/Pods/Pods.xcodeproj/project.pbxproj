@@ -7,407 +7,396 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A3C78EDEDDBC543EC193EB21B403325 /* TCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 578A1225ECB1B35916F2D89ADF6B36E1 /* TCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E8D479672E169291CE79620DCADC170 /* Pods-TCardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AC9AFBD858D82DEA7FFC35297518C /* Pods-TCardView_Example-dummy.m */; };
-		2C9C4FB9D67A746232237535C9F77A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		44A389673B44DE7E46C59BBF4A627F1A /* TCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C3DDB4A8F85896D70925CA3B205A1 /* TCardView-dummy.m */; };
-		524532135FDF27DD2764071A5638A7EA /* TCardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 736BCFAD7ACD9BF8E100FCD5E5529503 /* TCardCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		56EEFFD2758EC559C4F2F84456B8E846 /* Pods-TCardView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0398C37039267E5ED6A0E4C4CA2 /* Pods-TCardView_Tests-dummy.m */; };
-		89C0297ED5FE9F90758FEC15778D486A /* TCardFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE35D0880D8A760EAA54D24C91359A2 /* TCardFlow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		91889D6657F48137F84E4D16FED75DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9F1E756BA521EB972D89CD51C6DC88B3 /* TCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7290A51EA7F90924EF58322BCFDF9E /* TCardView.m */; };
-		B70C100FD706933DBA531995C19AC305 /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB89876323664888DF7B6903559622A1 /* delete@3x.png */; };
-		D0B503AC61A2A48B52CE4090F9594AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E7F3844FAB550D1594B11E355DA6CAAB /* TCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A68B929A8F2C17DE4EFC16C616E8B327 /* TCardCell.m */; };
-		E80589FDBBE4968DFF1C3ECBD30E4837 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CBA9E65EAE42542026EE1DBD5D2A6F /* delete@2x.png */; };
-		F3B5C7E46D168D01F03BFE88E3175949 /* TCardFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1CB828B6E271C0AD594FDC6C871CB /* TCardFlow.m */; };
+		013C159FFC63F2BDBC162425A5564835 /* TCardFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9783C36CB7BE45A8336263E90BB06929 /* TCardFlow.m */; };
+		2182FE2F7393EC1F1B21472E213DA28E /* TCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9560DFB67CA20F2AFEB2EDE57AB0DDD /* TCardCell.m */; };
+		2653041F155DE849AB301EF6FBF781F1 /* Pods-TCardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389C39F36AF8314700152C962EEC726E /* Pods-TCardView_Example-dummy.m */; };
+		2EAC1FC4605B416F731C9C5578D564ED /* Pods-TCardView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F37A576A07B1AF602B5A6F3E892D6 /* Pods-TCardView_Tests-dummy.m */; };
+		3B5EB95B1DC20C50A6DE9F5D9EDF6E26 /* TCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = D773B8E860E2F59F0CA9FB7F61E4422B /* TCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		489255F249FC372AE75912EB94FD1EAC /* TCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E555DA7B20BBC93E081A0FE38E153A1 /* TCardView-dummy.m */; };
+		6A9023374634569D5BB7E712F2829C1D /* TCardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3EFEA3F75A7E1B667B51D5C81F07BD /* TCardCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7636248B14947DE2A62AA33138617850 /* TCardFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECE2FA63E9B5C9E3507B59ED25D6263 /* TCardFlow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7502A11E89259B0FDEA2E4D4FA94F99 /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19175ED62A906ABF5D59BE7A9746E4CE /* delete@3x.png */; };
+		E7DC9B91AD84027E6DC391E5D2767825 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C026389DEBDF14FE052789CA414A7164 /* delete@2x.png */; };
+		FCD7F5F449850EB9416F6DEB87754334 /* TCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E21599A7A2481E00D566EEE9A88023D0 /* TCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25E5E3C08A626CD3B20742C9C28EC138 /* PBXContainerItemProxy */ = {
+		35F1C97A6ABCC83AB35236E6F939706D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED339A485EB2410004AFCD66B98E3D1D;
+			remoteGlobalIDString = 456A281BB673BFA30F0EFE62AACC4CFE;
 			remoteInfo = "Pods-TCardView_Example";
 		};
-		33E3B9990EC416DDE8CA12A2EF43A231 /* PBXContainerItemProxy */ = {
+		BA332410B90B34C1753640240CF3C17E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00295073ACEA18C3BEA6F70BDC120A95;
-			remoteInfo = TCardView;
-		};
-		B489C1CFEBC7B456F33B1ED3D5AC926B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FB95F9C9605A27417EF5C9276A17195;
+			remoteGlobalIDString = 5130B9B9A4FDD76CFAAF04D35DE769E3;
 			remoteInfo = "TCardView-TCardView";
+		};
+		F4C9512BA704E176A763082BF7B50007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6F43B20DAF77709CD8D71AE7D03ED8;
+			remoteInfo = TCardView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07D6B40C89729D62D33ED7E8888FF638 /* Pods-TCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0CCD100BB8F79CE9CD6D51CB95994954 /* TCardView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TCardView.bundle; path = "TCardView-TCardView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FCAA4893D4AB3569B0BC1CB9FE8073 /* Pods-TCardView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCardView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C8B3AAEA5DB16BEFBFF66A6383A89B2 /* libPods-TCardView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TCardView_Example.a"; path = "libPods-TCardView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC542133E1A49FE87DDAC0B7A4595D5 /* ResourceBundle-TCardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TCardView-Info.plist"; sourceTree = "<group>"; };
-		43CBA9E65EAE42542026EE1DBD5D2A6F /* delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete@2x.png"; path = "TCardView/Assets/delete@2x.png"; sourceTree = "<group>"; };
-		4F7290A51EA7F90924EF58322BCFDF9E /* TCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCardView.m; path = TCardView/Classes/TCardView.m; sourceTree = "<group>"; };
-		50E237959A1E6C34813CE95EEBD8B8A4 /* Pods-TCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		522B9E44E70F1987E511C59751794B9D /* Pods-TCardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCardView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		578A1225ECB1B35916F2D89ADF6B36E1 /* TCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCardView.h; path = TCardView/Classes/TCardView.h; sourceTree = "<group>"; };
-		59D056914D0482455159E486B8B14F3D /* Pods-TCardView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCardView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		60EDE2F07E5F32BAC722D04397BE03AD /* Pods-TCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EA768DCC153A5795C956D38E2C122A6 /* libPods-TCardView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TCardView_Tests.a"; path = "libPods-TCardView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		736BCFAD7ACD9BF8E100FCD5E5529503 /* TCardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCardCell.h; path = TCardView/Classes/TCardCell.h; sourceTree = "<group>"; };
-		7859D5528DE3A33BB172D2B5132E8274 /* Pods-TCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7EF6F8D94180BE05CB392FA7363FB221 /* libTCardView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTCardView.a; path = libTCardView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		84D1CB828B6E271C0AD594FDC6C871CB /* TCardFlow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCardFlow.m; path = TCardView/Classes/TCardFlow.m; sourceTree = "<group>"; };
-		9078548A559705255CD51EEFA05359A7 /* Pods-TCardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCardView_Example-resources.sh"; sourceTree = "<group>"; };
-		929C3DDB4A8F85896D70925CA3B205A1 /* TCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCardView-dummy.m"; sourceTree = "<group>"; };
-		931AC9AFBD858D82DEA7FFC35297518C /* Pods-TCardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCardView_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CF40E14881AC80570EDCC0E26347B65 /* Pods-TCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A4D6E901BD5CCED6E3A121664813B529 /* TCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A68B929A8F2C17DE4EFC16C616E8B327 /* TCardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCardCell.m; path = TCardView/Classes/TCardCell.m; sourceTree = "<group>"; };
-		C0DB7C906441DBE8070A0C488686B92E /* Pods-TCardView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCardView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C37A5AC1CE07293D7DF538AEEAF639F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C6C8B32C1BCEA1183085C14AC2DCEE2E /* TCardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCardView.xcconfig; sourceTree = "<group>"; };
-		C6EE8725CB0F4C8E8B3E142EA6DE575D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DB89876323664888DF7B6903559622A1 /* delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete@3x.png"; path = "TCardView/Assets/delete@3x.png"; sourceTree = "<group>"; };
-		E15CF0398C37039267E5ED6A0E4C4CA2 /* Pods-TCardView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCardView_Tests-dummy.m"; sourceTree = "<group>"; };
-		EDE35D0880D8A760EAA54D24C91359A2 /* TCardFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCardFlow.h; path = TCardView/Classes/TCardFlow.h; sourceTree = "<group>"; };
-		F6BE742CCB457B75F4406E263AD16B0D /* Pods-TCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FAB6193C8BF4D5204D3137987AD8FE2D /* TCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCardView-prefix.pch"; sourceTree = "<group>"; };
-		FFACE6736FD142783AF2C928EAF17E7C /* Pods-TCardView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCardView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1700D50D2F3D3EAEE6EB2B724746E91B /* TCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TCardView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19175ED62A906ABF5D59BE7A9746E4CE /* delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete@3x.png"; path = "TCardView/Assets/delete@3x.png"; sourceTree = "<group>"; };
+		1D3EFEA3F75A7E1B667B51D5C81F07BD /* TCardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCardCell.h; path = TCardView/Classes/TCardCell.h; sourceTree = "<group>"; };
+		27F40302984896BE26DCE94D70CC3A37 /* Pods-TCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35DB5F66E79F09E345C08A195C94D4A5 /* TCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCardView.release.xcconfig; sourceTree = "<group>"; };
+		36568BDCEA284195008D6F4CEECD0988 /* ResourceBundle-TCardView-TCardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TCardView-TCardView-Info.plist"; sourceTree = "<group>"; };
+		389C39F36AF8314700152C962EEC726E /* Pods-TCardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCardView_Example-dummy.m"; sourceTree = "<group>"; };
+		396EF3923CA2DDF1D310215BC17E6732 /* Pods-TCardView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCardView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40DBB795E5DB5F101C8DC91852C2A3AC /* Pods-TCardView_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TCardView_Tests"; path = "libPods-TCardView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4667E572E93FE04A4BEFD6E5FE3ADA99 /* Pods-TCardView_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TCardView_Example"; path = "libPods-TCardView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513A0FFBDBF38F33BAD4B51C527AE79F /* TCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCardView-prefix.pch"; sourceTree = "<group>"; };
+		5ECE2FA63E9B5C9E3507B59ED25D6263 /* TCardFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCardFlow.h; path = TCardView/Classes/TCardFlow.h; sourceTree = "<group>"; };
+		71D7F36BDF21682AB74B72DF16566E84 /* Pods-TCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		731605A5645294C66B2C0C349E984400 /* Pods-TCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		765D397EADEA5C9A9ECC1EA3AB8E53A4 /* Pods-TCardView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCardView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E555DA7B20BBC93E081A0FE38E153A1 /* TCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCardView-dummy.m"; sourceTree = "<group>"; };
+		91D64D443078F56004D791E3F2B5CF57 /* Pods-TCardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCardView_Example-resources.sh"; sourceTree = "<group>"; };
+		9783C36CB7BE45A8336263E90BB06929 /* TCardFlow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCardFlow.m; path = TCardView/Classes/TCardFlow.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07086DE04141704C81B1AEF39C3E747 /* TCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCardView.debug.xcconfig; sourceTree = "<group>"; };
+		B2D6FE8609FC09AAE3D071A30FB3C654 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C026389DEBDF14FE052789CA414A7164 /* delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete@2x.png"; path = "TCardView/Assets/delete@2x.png"; sourceTree = "<group>"; };
+		C9DB1BC0049B7A26A46C222729B069CC /* TCardView-TCardView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TCardView-TCardView"; path = TCardView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D770F904D350484E235798954F480CD8 /* Pods-TCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D773B8E860E2F59F0CA9FB7F61E4422B /* TCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCardView.h; path = TCardView/Classes/TCardView.h; sourceTree = "<group>"; };
+		D9560DFB67CA20F2AFEB2EDE57AB0DDD /* TCardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCardCell.m; path = TCardView/Classes/TCardCell.m; sourceTree = "<group>"; };
+		DC1F37A576A07B1AF602B5A6F3E892D6 /* Pods-TCardView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCardView_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD96AB8E84C04B4143E8E9B6189D798D /* TCardView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = TCardView; path = libTCardView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21599A7A2481E00D566EEE9A88023D0 /* TCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCardView.m; path = TCardView/Classes/TCardView.m; sourceTree = "<group>"; };
+		E4B06E1312C70B847AA183CFEA3282C8 /* Pods-TCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5457C96C061C57A3EB0407762E86C71 /* Pods-TCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5DEABFADF70073764FE0409C27B39E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		156CC83E88EC10D82F49FF0DB42D55D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0B503AC61A2A48B52CE4090F9594AEA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1981AF72866B3C75A6F58308ECFDFA7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91889D6657F48137F84E4D16FED75DE9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A038663383B76273105BAEC2990A98C9 /* Frameworks */ = {
+		02DD9035B5EC593EC8D978B5FF344AB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADCEB7B2659188E0256BB729606082E6 /* Frameworks */ = {
+		0E014883022DB53B67FA02E03795E655 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9C4FB9D67A746232237535C9F77A8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF6D0ABB7A9DE44608860432F63A4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D071DF6DBA1C4E0587E3DAFD52B7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		008E376AF70F2629C9E8FDEC06E75E67 /* Products */ = {
+		2984C0A2D38280521CA3C3F9407659F3 /* Pods-TCardView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1C8B3AAEA5DB16BEFBFF66A6383A89B2 /* libPods-TCardView_Example.a */,
-				6EA768DCC153A5795C956D38E2C122A6 /* libPods-TCardView_Tests.a */,
-				7EF6F8D94180BE05CB392FA7363FB221 /* libTCardView.a */,
-				0CCD100BB8F79CE9CD6D51CB95994954 /* TCardView.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5B3D4592DD8E853D291DA15CE282BABC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FCB19C7DF5A5A6CC9C59D33E12B95FBA /* Pods-TCardView_Example */,
-				69E5795CDAF4A0C933A53F27D8B7A382 /* Pods-TCardView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		69E5795CDAF4A0C933A53F27D8B7A382 /* Pods-TCardView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				59D056914D0482455159E486B8B14F3D /* Pods-TCardView_Tests-acknowledgements.markdown */,
-				18FCAA4893D4AB3569B0BC1CB9FE8073 /* Pods-TCardView_Tests-acknowledgements.plist */,
-				E15CF0398C37039267E5ED6A0E4C4CA2 /* Pods-TCardView_Tests-dummy.m */,
-				C0DB7C906441DBE8070A0C488686B92E /* Pods-TCardView_Tests-frameworks.sh */,
-				FFACE6736FD142783AF2C928EAF17E7C /* Pods-TCardView_Tests-resources.sh */,
-				50E237959A1E6C34813CE95EEBD8B8A4 /* Pods-TCardView_Tests.debug.xcconfig */,
-				7859D5528DE3A33BB172D2B5132E8274 /* Pods-TCardView_Tests.release.xcconfig */,
-			);
-			name = "Pods-TCardView_Tests";
-			path = "Target Support Files/Pods-TCardView_Tests";
-			sourceTree = "<group>";
-		};
-		71A8C8632D0E39B6ABF041602D64F766 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				43CBA9E65EAE42542026EE1DBD5D2A6F /* delete@2x.png */,
-				DB89876323664888DF7B6903559622A1 /* delete@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A8102E9DA7809671BA4D48E08F06CBA5 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				008E376AF70F2629C9E8FDEC06E75E67 /* Products */,
-				5B3D4592DD8E853D291DA15CE282BABC /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		93CA4798C9A76575D2B19C66AFD87CF1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C6EE8725CB0F4C8E8B3E142EA6DE575D /* LICENSE */,
-				C37A5AC1CE07293D7DF538AEEAF639F4 /* README.md */,
-				A4D6E901BD5CCED6E3A121664813B529 /* TCardView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A8102E9DA7809671BA4D48E08F06CBA5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A91F109C636C61535BB1792CDE7D193C /* TCardView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A91F109C636C61535BB1792CDE7D193C /* TCardView */ = {
-			isa = PBXGroup;
-			children = (
-				736BCFAD7ACD9BF8E100FCD5E5529503 /* TCardCell.h */,
-				A68B929A8F2C17DE4EFC16C616E8B327 /* TCardCell.m */,
-				EDE35D0880D8A760EAA54D24C91359A2 /* TCardFlow.h */,
-				84D1CB828B6E271C0AD594FDC6C871CB /* TCardFlow.m */,
-				578A1225ECB1B35916F2D89ADF6B36E1 /* TCardView.h */,
-				4F7290A51EA7F90924EF58322BCFDF9E /* TCardView.m */,
-				93CA4798C9A76575D2B19C66AFD87CF1 /* Pod */,
-				71A8C8632D0E39B6ABF041602D64F766 /* Resources */,
-				AC14CCF9BEB7ACCC6DBB8CCFA538F3D8 /* Support Files */,
-			);
-			name = TCardView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AC14CCF9BEB7ACCC6DBB8CCFA538F3D8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DC542133E1A49FE87DDAC0B7A4595D5 /* ResourceBundle-TCardView-Info.plist */,
-				C6C8B32C1BCEA1183085C14AC2DCEE2E /* TCardView.xcconfig */,
-				929C3DDB4A8F85896D70925CA3B205A1 /* TCardView-dummy.m */,
-				FAB6193C8BF4D5204D3137987AD8FE2D /* TCardView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TCardView";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FCB19C7DF5A5A6CC9C59D33E12B95FBA /* Pods-TCardView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				60EDE2F07E5F32BAC722D04397BE03AD /* Pods-TCardView_Example-acknowledgements.markdown */,
-				07D6B40C89729D62D33ED7E8888FF638 /* Pods-TCardView_Example-acknowledgements.plist */,
-				931AC9AFBD858D82DEA7FFC35297518C /* Pods-TCardView_Example-dummy.m */,
-				522B9E44E70F1987E511C59751794B9D /* Pods-TCardView_Example-frameworks.sh */,
-				9078548A559705255CD51EEFA05359A7 /* Pods-TCardView_Example-resources.sh */,
-				9CF40E14881AC80570EDCC0E26347B65 /* Pods-TCardView_Example.debug.xcconfig */,
-				F6BE742CCB457B75F4406E263AD16B0D /* Pods-TCardView_Example.release.xcconfig */,
+				E5457C96C061C57A3EB0407762E86C71 /* Pods-TCardView_Example-acknowledgements.markdown */,
+				731605A5645294C66B2C0C349E984400 /* Pods-TCardView_Example-acknowledgements.plist */,
+				389C39F36AF8314700152C962EEC726E /* Pods-TCardView_Example-dummy.m */,
+				91D64D443078F56004D791E3F2B5CF57 /* Pods-TCardView_Example-resources.sh */,
+				D770F904D350484E235798954F480CD8 /* Pods-TCardView_Example.debug.xcconfig */,
+				27F40302984896BE26DCE94D70CC3A37 /* Pods-TCardView_Example.release.xcconfig */,
 			);
 			name = "Pods-TCardView_Example";
 			path = "Target Support Files/Pods-TCardView_Example";
 			sourceTree = "<group>";
 		};
+		3F144C057917D3C235DB56FCA824D0C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2984C0A2D38280521CA3C3F9407659F3 /* Pods-TCardView_Example */,
+				8C1138C3C0646F8E1EAF0140644D21A4 /* Pods-TCardView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D65B707843FFD6E362B835252048A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4667E572E93FE04A4BEFD6E5FE3ADA99 /* Pods-TCardView_Example */,
+				40DBB795E5DB5F101C8DC91852C2A3AC /* Pods-TCardView_Tests */,
+				DD96AB8E84C04B4143E8E9B6189D798D /* TCardView */,
+				C9DB1BC0049B7A26A46C222729B069CC /* TCardView-TCardView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BEA9D21ECB1A43D27E0F70DD953891 /* TCardView */ = {
+			isa = PBXGroup;
+			children = (
+				C026389DEBDF14FE052789CA414A7164 /* delete@2x.png */,
+				19175ED62A906ABF5D59BE7A9746E4CE /* delete@3x.png */,
+				1D3EFEA3F75A7E1B667B51D5C81F07BD /* TCardCell.h */,
+				D9560DFB67CA20F2AFEB2EDE57AB0DDD /* TCardCell.m */,
+				5ECE2FA63E9B5C9E3507B59ED25D6263 /* TCardFlow.h */,
+				9783C36CB7BE45A8336263E90BB06929 /* TCardFlow.m */,
+				D773B8E860E2F59F0CA9FB7F61E4422B /* TCardView.h */,
+				E21599A7A2481E00D566EEE9A88023D0 /* TCardView.m */,
+				B94C3329B7CEC3CFF6F3C99F730E4D36 /* Pod */,
+				F0EC1032828115BF70AA6F1FDB09F4C3 /* Support Files */,
+			);
+			name = TCardView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8C1138C3C0646F8E1EAF0140644D21A4 /* Pods-TCardView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				765D397EADEA5C9A9ECC1EA3AB8E53A4 /* Pods-TCardView_Tests-acknowledgements.markdown */,
+				396EF3923CA2DDF1D310215BC17E6732 /* Pods-TCardView_Tests-acknowledgements.plist */,
+				DC1F37A576A07B1AF602B5A6F3E892D6 /* Pods-TCardView_Tests-dummy.m */,
+				E4B06E1312C70B847AA183CFEA3282C8 /* Pods-TCardView_Tests.debug.xcconfig */,
+				71D7F36BDF21682AB74B72DF16566E84 /* Pods-TCardView_Tests.release.xcconfig */,
+			);
+			name = "Pods-TCardView_Tests";
+			path = "Target Support Files/Pods-TCardView_Tests";
+			sourceTree = "<group>";
+		};
+		B94C3329B7CEC3CFF6F3C99F730E4D36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5DEABFADF70073764FE0409C27B39E1 /* LICENSE */,
+				B2D6FE8609FC09AAE3D071A30FB3C654 /* README.md */,
+				1700D50D2F3D3EAEE6EB2B724746E91B /* TCardView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C7A597FA69013867D3728568E2D2F101 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79BEA9D21ECB1A43D27E0F70DD953891 /* TCardView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C7A597FA69013867D3728568E2D2F101 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				6D65B707843FFD6E362B835252048A1F /* Products */,
+				3F144C057917D3C235DB56FCA824D0C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EC1032828115BF70AA6F1FDB09F4C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36568BDCEA284195008D6F4CEECD0988 /* ResourceBundle-TCardView-TCardView-Info.plist */,
+				7E555DA7B20BBC93E081A0FE38E153A1 /* TCardView-dummy.m */,
+				513A0FFBDBF38F33BAD4B51C527AE79F /* TCardView-prefix.pch */,
+				A07086DE04141704C81B1AEF39C3E747 /* TCardView.debug.xcconfig */,
+				35DB5F66E79F09E345C08A195C94D4A5 /* TCardView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TCardView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02A8FE3C860F6D2938ACEFA971E86BAE /* Headers */ = {
+		656F45515EA41BE0FA0BBA654F65BD05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524532135FDF27DD2764071A5638A7EA /* TCardCell.h in Headers */,
-				89C0297ED5FE9F90758FEC15778D486A /* TCardFlow.h in Headers */,
-				0A3C78EDEDDBC543EC193EB21B403325 /* TCardView.h in Headers */,
+				6A9023374634569D5BB7E712F2829C1D /* TCardCell.h in Headers */,
+				7636248B14947DE2A62AA33138617850 /* TCardFlow.h in Headers */,
+				3B5EB95B1DC20C50A6DE9F5D9EDF6E26 /* TCardView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCABDFE348E37F172F27000850CD8C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAD7D6329A396A6A16A8520E3E7E8D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		00295073ACEA18C3BEA6F70BDC120A95 /* TCardView */ = {
+		11AFDAA407AE66F264D646BCCFD2686B /* Pods-TCardView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C613BF7A6D8DF171384EE669A7D23959 /* Build configuration list for PBXNativeTarget "TCardView" */;
+			buildConfigurationList = CAA3BC7043DC36938C5DDEDB0DE0144D /* Build configuration list for PBXNativeTarget "Pods-TCardView_Tests" */;
 			buildPhases = (
-				7D1692494F544DDACE20DFB672F64F98 /* Sources */,
-				1981AF72866B3C75A6F58308ECFDFA7A /* Frameworks */,
-				02A8FE3C860F6D2938ACEFA971E86BAE /* Headers */,
+				EAAD7D6329A396A6A16A8520E3E7E8D3 /* Headers */,
+				02ADB6AACFDA4E77A3FEEFCE3AA5D7C4 /* Sources */,
+				CDF6D0ABB7A9DE44608860432F63A4A3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB8AC30EB1C202C0875742015CB0722F /* PBXTargetDependency */,
+				954B1D1F7F2AF321904DFE1FFC79042F /* PBXTargetDependency */,
 			);
-			name = TCardView;
-			productName = TCardView;
-			productReference = 7EF6F8D94180BE05CB392FA7363FB221 /* libTCardView.a */;
+			name = "Pods-TCardView_Tests";
+			productName = "Pods-TCardView_Tests";
+			productReference = 40DBB795E5DB5F101C8DC91852C2A3AC /* Pods-TCardView_Tests */;
 			productType = "com.apple.product-type.library.static";
 		};
-		2FB95F9C9605A27417EF5C9276A17195 /* TCardView-TCardView */ = {
+		456A281BB673BFA30F0EFE62AACC4CFE /* Pods-TCardView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED3B129A5BA69C271CEEC1B7F60A075D /* Build configuration list for PBXNativeTarget "TCardView-TCardView" */;
+			buildConfigurationList = 2FF8669E78148A0DD0B2F19038AD47D1 /* Build configuration list for PBXNativeTarget "Pods-TCardView_Example" */;
 			buildPhases = (
-				9357850C2282DCFCECF0E278D26E6F5D /* Sources */,
-				A038663383B76273105BAEC2990A98C9 /* Frameworks */,
-				4240C4AA688FA8AFF2523DCB616A154A /* Resources */,
+				6DCABDFE348E37F172F27000850CD8C4 /* Headers */,
+				1652DBD282E0F66138C3B502FFB64504 /* Sources */,
+				F8D071DF6DBA1C4E0587E3DAFD52B7C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9A6C2837997F7BD876CE0722B1536D /* PBXTargetDependency */,
+			);
+			name = "Pods-TCardView_Example";
+			productName = "Pods-TCardView_Example";
+			productReference = 4667E572E93FE04A4BEFD6E5FE3ADA99 /* Pods-TCardView_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5130B9B9A4FDD76CFAAF04D35DE769E3 /* TCardView-TCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5966410AAC33C6A9500B99BC2604007D /* Build configuration list for PBXNativeTarget "TCardView-TCardView" */;
+			buildPhases = (
+				4CB0626A2FE032C090710120C43D7215 /* Sources */,
+				0E014883022DB53B67FA02E03795E655 /* Frameworks */,
+				10A133E16AC4B8D4960B67EE575A10DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "TCardView-TCardView";
-			productName = "TCardView-TCardView";
-			productReference = 0CCD100BB8F79CE9CD6D51CB95994954 /* TCardView.bundle */;
+			productName = TCardView;
+			productReference = C9DB1BC0049B7A26A46C222729B069CC /* TCardView-TCardView */;
 			productType = "com.apple.product-type.bundle";
 		};
-		ED339A485EB2410004AFCD66B98E3D1D /* Pods-TCardView_Example */ = {
+		8C6F43B20DAF77709CD8D71AE7D03ED8 /* TCardView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB71FE625B8B455F928DBBAAC068D200 /* Build configuration list for PBXNativeTarget "Pods-TCardView_Example" */;
+			buildConfigurationList = 8879C5E29F8DE1125DAD8A93F538E5F8 /* Build configuration list for PBXNativeTarget "TCardView" */;
 			buildPhases = (
-				05D3A0A51CD87A1C73584A5487023C2F /* Sources */,
-				156CC83E88EC10D82F49FF0DB42D55D6 /* Frameworks */,
+				656F45515EA41BE0FA0BBA654F65BD05 /* Headers */,
+				2514D99FE5D6DAD1F64A1E879EEB4EA4 /* Sources */,
+				02DD9035B5EC593EC8D978B5FF344AB8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3224705A7B06C83BA153CE4FA2519C6B /* PBXTargetDependency */,
+				6263247D6A8F8A70EE6EAD2818E89795 /* PBXTargetDependency */,
 			);
-			name = "Pods-TCardView_Example";
-			productName = "Pods-TCardView_Example";
-			productReference = 1C8B3AAEA5DB16BEFBFF66A6383A89B2 /* libPods-TCardView_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F678046A36653E1F2ACCB060EA71E075 /* Pods-TCardView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 391098531FC41CD6B40D145B52670CAE /* Build configuration list for PBXNativeTarget "Pods-TCardView_Tests" */;
-			buildPhases = (
-				917172C37AD4640E723F91B5B328D7EE /* Sources */,
-				ADCEB7B2659188E0256BB729606082E6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F40D0921D553709F5A823C8E4F0C27F2 /* PBXTargetDependency */,
-			);
-			name = "Pods-TCardView_Tests";
-			productName = "Pods-TCardView_Tests";
-			productReference = 6EA768DCC153A5795C956D38E2C122A6 /* libPods-TCardView_Tests.a */;
+			name = TCardView;
+			productName = TCardView;
+			productReference = DD96AB8E84C04B4143E8E9B6189D798D /* TCardView */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 008E376AF70F2629C9E8FDEC06E75E67 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6D65B707843FFD6E362B835252048A1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED339A485EB2410004AFCD66B98E3D1D /* Pods-TCardView_Example */,
-				F678046A36653E1F2ACCB060EA71E075 /* Pods-TCardView_Tests */,
-				00295073ACEA18C3BEA6F70BDC120A95 /* TCardView */,
-				2FB95F9C9605A27417EF5C9276A17195 /* TCardView-TCardView */,
+				456A281BB673BFA30F0EFE62AACC4CFE /* Pods-TCardView_Example */,
+				11AFDAA407AE66F264D646BCCFD2686B /* Pods-TCardView_Tests */,
+				8C6F43B20DAF77709CD8D71AE7D03ED8 /* TCardView */,
+				5130B9B9A4FDD76CFAAF04D35DE769E3 /* TCardView-TCardView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4240C4AA688FA8AFF2523DCB616A154A /* Resources */ = {
+		10A133E16AC4B8D4960B67EE575A10DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80589FDBBE4968DFF1C3ECBD30E4837 /* delete@2x.png in Resources */,
-				B70C100FD706933DBA531995C19AC305 /* delete@3x.png in Resources */,
+				E7DC9B91AD84027E6DC391E5D2767825 /* delete@2x.png in Resources */,
+				E7502A11E89259B0FDEA2E4D4FA94F99 /* delete@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05D3A0A51CD87A1C73584A5487023C2F /* Sources */ = {
+		02ADB6AACFDA4E77A3FEEFCE3AA5D7C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E8D479672E169291CE79620DCADC170 /* Pods-TCardView_Example-dummy.m in Sources */,
+				2EAC1FC4605B416F731C9C5578D564ED /* Pods-TCardView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D1692494F544DDACE20DFB672F64F98 /* Sources */ = {
+		1652DBD282E0F66138C3B502FFB64504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F3844FAB550D1594B11E355DA6CAAB /* TCardCell.m in Sources */,
-				F3B5C7E46D168D01F03BFE88E3175949 /* TCardFlow.m in Sources */,
-				44A389673B44DE7E46C59BBF4A627F1A /* TCardView-dummy.m in Sources */,
-				9F1E756BA521EB972D89CD51C6DC88B3 /* TCardView.m in Sources */,
+				2653041F155DE849AB301EF6FBF781F1 /* Pods-TCardView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		917172C37AD4640E723F91B5B328D7EE /* Sources */ = {
+		2514D99FE5D6DAD1F64A1E879EEB4EA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56EEFFD2758EC559C4F2F84456B8E846 /* Pods-TCardView_Tests-dummy.m in Sources */,
+				2182FE2F7393EC1F1B21472E213DA28E /* TCardCell.m in Sources */,
+				013C159FFC63F2BDBC162425A5564835 /* TCardFlow.m in Sources */,
+				FCD7F5F449850EB9416F6DEB87754334 /* TCardView.m in Sources */,
+				489255F249FC372AE75912EB94FD1EAC /* TCardView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9357850C2282DCFCECF0E278D26E6F5D /* Sources */ = {
+		4CB0626A2FE032C090710120C43D7215 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,33 +406,93 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3224705A7B06C83BA153CE4FA2519C6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TCardView;
-			target = 00295073ACEA18C3BEA6F70BDC120A95 /* TCardView */;
-			targetProxy = 33E3B9990EC416DDE8CA12A2EF43A231 /* PBXContainerItemProxy */;
-		};
-		F40D0921D553709F5A823C8E4F0C27F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TCardView_Example";
-			target = ED339A485EB2410004AFCD66B98E3D1D /* Pods-TCardView_Example */;
-			targetProxy = 25E5E3C08A626CD3B20742C9C28EC138 /* PBXContainerItemProxy */;
-		};
-		FB8AC30EB1C202C0875742015CB0722F /* PBXTargetDependency */ = {
+		6263247D6A8F8A70EE6EAD2818E89795 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TCardView-TCardView";
-			target = 2FB95F9C9605A27417EF5C9276A17195 /* TCardView-TCardView */;
-			targetProxy = B489C1CFEBC7B456F33B1ED3D5AC926B /* PBXContainerItemProxy */;
+			target = 5130B9B9A4FDD76CFAAF04D35DE769E3 /* TCardView-TCardView */;
+			targetProxy = BA332410B90B34C1753640240CF3C17E /* PBXContainerItemProxy */;
+		};
+		954B1D1F7F2AF321904DFE1FFC79042F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TCardView_Example";
+			target = 456A281BB673BFA30F0EFE62AACC4CFE /* Pods-TCardView_Example */;
+			targetProxy = 35F1C97A6ABCC83AB35236E6F939706D /* PBXContainerItemProxy */;
+		};
+		DC9A6C2837997F7BD876CE0722B1536D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCardView;
+			target = 8C6F43B20DAF77709CD8D71AE7D03ED8 /* TCardView */;
+			targetProxy = F4C9512BA704E176A763082BF7B50007 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		020FF1B3FE62EAC6D8251F38E5AF3553 /* Release */ = {
+		0336A9A5E80A2C93AC8680115F8FB508 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6BE742CCB457B75F4406E263AD16B0D /* Pods-TCardView_Example.release.xcconfig */;
+			baseConfigurationReference = 35DB5F66E79F09E345C08A195C94D4A5 /* TCardView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TCardView/TCardView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TCardView;
+				PRODUCT_NAME = TCardView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2EEEA037E888E6D1D1ABC94D76C006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07086DE04141704C81B1AEF39C3E747 /* TCardView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TCardView";
+				IBSC_MODULE = TCardView;
+				INFOPLIST_FILE = "Target Support Files/TCardView/ResourceBundle-TCardView-TCardView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		17690E22EFAE8DD58DAC2685C318DDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07086DE04141704C81B1AEF39C3E747 /* TCardView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TCardView/TCardView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TCardView;
+				PRODUCT_NAME = TCardView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5118DA7E80FB87FD8925C8F5705B3B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F40302984896BE26DCE94D70CC3A37 /* Pods-TCardView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -460,10 +509,11 @@
 			};
 			name = Release;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -486,14 +536,132 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		96EC47A6D44637EDF9360D55007D67E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D7F36BDF21682AB74B72DF16566E84 /* Pods-TCardView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE7FD76D17D4E061316E236F1A2201F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B06E1312C70B847AA183CFEA3282C8 /* Pods-TCardView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAAD756578A66EF06757E6CC72C8BD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DB5F66E79F09E345C08A195C94D4A5 /* TCardView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TCardView";
+				IBSC_MODULE = TCardView;
+				INFOPLIST_FILE = "Target Support Files/TCardView/ResourceBundle-TCardView-TCardView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -514,21 +682,23 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		22582C0D4297B016DB2D58326056783C /* Debug */ = {
+		F3172497EA5C70FB91DFF98F0C941A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E237959A1E6C34813CE95EEBD8B8A4 /* Pods-TCardView_Tests.debug.xcconfig */;
+			baseConfigurationReference = D770F904D350484E235798954F480CD8 /* Pods-TCardView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -543,236 +713,56 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		7844CC83A31F8C3D8674F230A4C3A034 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CF40E14881AC80570EDCC0E26347B65 /* Pods-TCardView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8516C502C4AED32DA48A46531CFD1525 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C8B32C1BCEA1183085C14AC2DCEE2E /* TCardView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TCardView/TCardView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TCardView;
-				PRODUCT_NAME = TCardView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		950665823A0DF1C96ED8F4D06A48F0FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7859D5528DE3A33BB172D2B5132E8274 /* Pods-TCardView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AA79B7674CD2F14C55B9BAA1AB0D1AE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C8B32C1BCEA1183085C14AC2DCEE2E /* TCardView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TCardView";
-				INFOPLIST_FILE = "Target Support Files/TCardView/ResourceBundle-TCardView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TCardView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DF08781B35F638F1D05AE842DCC39C4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C8B32C1BCEA1183085C14AC2DCEE2E /* TCardView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TCardView/TCardView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TCardView;
-				PRODUCT_NAME = TCardView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F8B254799DDA7FD6A93F9FF5339B4086 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C8B32C1BCEA1183085C14AC2DCEE2E /* TCardView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TCardView";
-				INFOPLIST_FILE = "Target Support Files/TCardView/ResourceBundle-TCardView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TCardView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2FF8669E78148A0DD0B2F19038AD47D1 /* Build configuration list for PBXNativeTarget "Pods-TCardView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				F3172497EA5C70FB91DFF98F0C941A6E /* Debug */,
+				5118DA7E80FB87FD8925C8F5705B3B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		391098531FC41CD6B40D145B52670CAE /* Build configuration list for PBXNativeTarget "Pods-TCardView_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22582C0D4297B016DB2D58326056783C /* Debug */,
-				950665823A0DF1C96ED8F4D06A48F0FE /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB71FE625B8B455F928DBBAAC068D200 /* Build configuration list for PBXNativeTarget "Pods-TCardView_Example" */ = {
+		5966410AAC33C6A9500B99BC2604007D /* Build configuration list for PBXNativeTarget "TCardView-TCardView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7844CC83A31F8C3D8674F230A4C3A034 /* Debug */,
-				020FF1B3FE62EAC6D8251F38E5AF3553 /* Release */,
+				0A2EEEA037E888E6D1D1ABC94D76C006 /* Debug */,
+				CAAD756578A66EF06757E6CC72C8BD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C613BF7A6D8DF171384EE669A7D23959 /* Build configuration list for PBXNativeTarget "TCardView" */ = {
+		8879C5E29F8DE1125DAD8A93F538E5F8 /* Build configuration list for PBXNativeTarget "TCardView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF08781B35F638F1D05AE842DCC39C4D /* Debug */,
-				8516C502C4AED32DA48A46531CFD1525 /* Release */,
+				17690E22EFAE8DD58DAC2685C318DDDA /* Debug */,
+				0336A9A5E80A2C93AC8680115F8FB508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED3B129A5BA69C271CEEC1B7F60A075D /* Build configuration list for PBXNativeTarget "TCardView-TCardView" */ = {
+		CAA3BC7043DC36938C5DDEDB0DE0144D /* Build configuration list for PBXNativeTarget "Pods-TCardView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA79B7674CD2F14C55B9BAA1AB0D1AE8 /* Debug */,
-				F8B254799DDA7FD6A93F9FF5339B4086 /* Release */,
+				BAE7FD76D17D4E061316E236F1A2201F /* Debug */,
+				96EC47A6D44637EDF9360D55007D67E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

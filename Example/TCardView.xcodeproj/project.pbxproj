@@ -261,6 +261,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1370254410@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Y3UD3PVDBM;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -271,6 +274,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -352,7 +356,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TCardView/TCardView.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -361,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCardView_Example/Pods-TCardView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -501,6 +505,7 @@
 			baseConfigurationReference = DC5F17F8240306C8C7B51AB4 /* Pods-TCardView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3UD3PVDBM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCardView/TCardView-Prefix.pch";
 				INFOPLIST_FILE = "TCardView/TCardView-Info.plist";
@@ -517,6 +522,7 @@
 			baseConfigurationReference = 6DAB94873B167C25AA7EA0A0 /* Pods-TCardView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3UD3PVDBM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCardView/TCardView-Prefix.pch";
 				INFOPLIST_FILE = "TCardView/TCardView-Info.plist";

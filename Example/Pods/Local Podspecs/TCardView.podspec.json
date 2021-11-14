@@ -4,6 +4,10 @@
   "summary": "带缩放效果的轮播图",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/RainyMask",
+  "screenshots": [
+    "https://raw.githubusercontent.com/RainyMask/TCardView/master/Example/TCardView/demo1.png",
+    "https://raw.githubusercontent.com/RainyMask/TCardView/master/Example/TCardView/demo2.png"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"
